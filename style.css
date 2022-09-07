@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;  
+}
+.slidebar{
+background-color: lightpink;
+font-family: 'Quicksand', sans-serif;
+width: 10vw;
+display: flex;
+flex-wrap: wrap;
+}
+.slidebar nav{
+
+    padding-right: 50px;
+    width: 100px; ;
+    
+    
+}
+.slidebar nav li
+{ list-style: none;
+    display: inline-block ;
+    padding:33px ;
+    font-size:  50px;;
+    
+    
+}
+.slidebar nav li a
+{
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+    text-align:center ;
+}
+.main {
+    background-color:tomato;
+    width: 100vw;
+}
+.container {
+    display: flex;
+}
+
+.infocontainer
+{
+    background-color: darksalmon;
+    height: 58vh;
+    width: 80vw;
+    margin: 59px 75px 76px 189px;
+}
+.pic {
+    
+    width: 50px;
+    margin: 20px;
+}
+.devinfo{
+     display: flex;
+     align-items:initial;
+     flex-direction: column;
+     justify-content: left;
+}
+.helo{
+    background-color: antiquewhite;
+    
+    font-style: oblique;
+    font-size: 70px;
+}
+.age{
+    background-color: antiquewhite;
+    
+    font-style:italic;
+
+    font-size: 50px ;
+
+}
+
+.button button{
+    padding: 20px;
+    background: aquamarine;
+    margin: 20px;
+    border-radius: 20px;
+    color: black;
+    
+    font-size: 20px;
+
+}
+.button button:hover {
+    background-color: aliceblue;
+    color:black;
+}
+
+.butt{
+    background-color: aliceblue;
+border-radius: ;
+}
+
+.contactform{
+ padding-top: 144px;
+ padding
+}
+
+.contactform h1{
+    text-align:right;
+}
+ .mb-3
+ {
+    padding: 12px ;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+ }
